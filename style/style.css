@@ -1,0 +1,254 @@
+@font-face {
+    font-family: 'MyriadPro';
+    src: url(../fonts/MyriadPro-Regular.ttf);
+    font-family: 'SansPro';
+    src: url(../fonts/SourceSansPro-Regular.ttf);
+}
+
+.wrapper {
+    max-width: 1250px;
+    width: 100%;
+    background-color: #ffffff;
+    font-family: 'MyriadPro', sans-serif;
+    margin: 0 auto;
+    padding: 25px 0px 40px 0px;
+    box-sizing: border-box;
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 35px;
+}
+
+.header-logo {
+    display: flex;
+    justify-content: center;
+    margin-left: 140px;
+}
+
+.header-logo-quote {
+    font-size: 62px;
+    color: #ffffff;
+    font-family: 'SansPro', sans-serif;
+    text-align: center;
+    width: 44px;
+    height: 44px;
+    border-radius: 50%;
+    background-color: #5094f2;
+    margin-right: 15px;
+}
+
+.header-logo-text {
+    font-size: 42px;
+    color: #000000;
+}
+
+.header-nav {
+    margin-right: 135px;
+}
+
+.header-nav-list {
+    display: flex;
+    justify-content: space-between;
+    margin: 0px;
+}
+
+.header-nav-list-item {
+    list-style: none;
+}
+
+.header-nav-list-item-link {
+    text-decoration: none;
+    font-size: 20px;
+    letter-spacing: 0px;
+    color: #6c6c6c;
+}
+
+.header-nav-list-item-link:hover {
+    border-bottom: 2px solid #5094f2;
+}
+
+.header-nav-list-item + .header-nav-list-item {
+    margin-left: 35px;
+}
+
+.main {
+    margin-bottom: 65px;
+}
+
+.main-head {
+    background-image: url(../pictures/iphone_bg.jpg);
+    background-repeat: no-repeat;
+    background-position: bottom;
+    padding-left: 625px;
+    padding-bottom: 135px;
+    padding-top: 154px;
+    color: #ffffff;
+    margin-bottom: 50px;
+}
+
+.main-head-title {
+    margin: 0px;
+    font-size: 34px;
+    line-height: 36px;
+    font-weight: 400;
+    letter-spacing: 1px;
+    margin-bottom: 20px;
+}
+
+.main-head-title-text {
+    font-size: 19px;
+    margin: 0px;
+    line-height: 20px;
+    letter-spacing: 1px;
+    margin-bottom: 22px;
+}
+
+.main-head-form {
+    margin-left: 10px;
+}
+
+.form-button {
+    font-size: 22px;
+    color: #ffffff;
+    background-color: #5094f2;
+    border-radius: 3px;
+    border: #5094f2;
+    padding: 6px 11px 6px 4px;
+}
+
+.form-button-img {
+    padding: 0px 10px 2px 4px;
+    vertical-align: middle;
+}
+
+.main-body {
+    display: flex;
+    justify-content: space-evenly;
+    margin-bottom: 90px;
+}
+
+.main-body--pencil {
+    max-width: 293px;
+    width: 100%;
+}
+
+.pencil--img-wrp {
+    border-radius: 50%;
+    background-color: #5094f2;
+    width: 186px;
+    height: 186px;
+    margin-bottom: 31px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.pencil--img {
+    padding: 35px 0px 0px 55px;
+}
+
+.main-body--display {
+    max-width: 293px;
+    width: 100%;
+}
+
+.display--img-wrp {
+    border-radius: 50%;
+    background-color: #d94748;
+    width: 186px;
+    height: 186px;
+    margin-bottom: 31px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.display--img {
+    padding: 50px 0px 0px 45px;
+}
+
+.main-body--basket {
+    max-width: 293px;
+    width: 100%;
+}
+
+.basket--img-wrp {
+    border-radius: 50%;
+    background-color: #ebbb11;
+    width: 186px;
+    height: 186px;
+    margin-bottom: 31px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.basket--img {
+    padding: 40px 0px 0px 43px;
+}
+
+.body--link-wrp {
+    margin-bottom: 12px;
+    text-align: center;
+}
+
+.body--link {
+    text-decoration: none;
+    font-size: 20px;
+    color: #5094f2;
+}
+
+.body--text {
+    margin: 0px;
+    font-size: 14px;
+    color: #909090;
+    text-align: center;
+}
+
+.foot--shop-title {
+    margin: 0px;
+    padding-left: 145px;
+    margin-bottom: 25px;
+    font-size: 42px;
+    color: #6f7173;
+    font-weight: 100;
+}
+
+.foot--basket-img {
+    float: left;
+    padding-left: 145px;
+}
+
+.foot--wrp--text {
+    padding-left: 580px;
+    font-size: 15px;
+    line-height: 34px;
+    color: #909090;
+}
+
+.foot--wrp--text-title {
+    margin: 0px;
+    font-size: 26px;
+    color: #6f7173;
+}
+
+.foot--wrp--text-string {
+    margin: 0px;
+}
+
+.floatfix {
+    clear: both;
+}
+
+.footer-border {
+    border-top: 1px solid #e5e5e5;
+    margin-bottom: 32px;
+}
+
+.footer-text {
+    margin: 0px;
+    font-size: 15px;
+    line-height: 36px;
+    color: #909090;
+    text-align: center;
+}
